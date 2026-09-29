@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "regenerated_result_figures": 11,
+  "preserved_schematic": "figures/fig1.png",
+  "frozen_input_files_verified": 64,
+  "paired_replayed_episodes": 4,
+  "versions": {
+    "python": "3.9.2",
+    "numpy": "1.19.5",
+    "pandas": "1.2.3",
+    "scipy": "1.6.1",
+    "matplotlib": "3.3.4"
+  }
+}

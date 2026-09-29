@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+audit/
+figures/*
+!figures/fig1.png

@@ -1,0 +1,700 @@
+{
+  "evidence": "model-based simulator, not TruckV2X detector AP or field safety",
+  "actions": [
+    {
+      "id": 0,
+      "source": -1,
+      "receiver": -1,
+      "packet": "skip",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 0.0
+    },
+    {
+      "id": 1,
+      "source": 0,
+      "receiver": 1,
+      "packet": "state",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 2,
+      "source": 0,
+      "receiver": 1,
+      "packet": "state",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 3,
+      "source": 0,
+      "receiver": 1,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 4,
+      "source": 0,
+      "receiver": 1,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 5,
+      "source": 0,
+      "receiver": 1,
+      "packet": "state",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 6,
+      "source": 0,
+      "receiver": 1,
+      "packet": "state",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 7,
+      "source": 0,
+      "receiver": 1,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 8,
+      "source": 0,
+      "receiver": 1,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 9,
+      "source": 0,
+      "receiver": 1,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 10,
+      "source": 0,
+      "receiver": 1,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 11,
+      "source": 0,
+      "receiver": 1,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 12,
+      "source": 0,
+      "receiver": 1,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 13,
+      "source": 0,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 14,
+      "source": 0,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 15,
+      "source": 0,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 16,
+      "source": 0,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 17,
+      "source": 0,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 18,
+      "source": 0,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 19,
+      "source": 0,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 20,
+      "source": 0,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 21,
+      "source": 0,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 22,
+      "source": 0,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 23,
+      "source": 0,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 24,
+      "source": 0,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 25,
+      "source": 0,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 26,
+      "source": 0,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 27,
+      "source": 0,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 28,
+      "source": 0,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 29,
+      "source": 0,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 30,
+      "source": 0,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 31,
+      "source": 0,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 32,
+      "source": 0,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 33,
+      "source": 0,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 34,
+      "source": 0,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 35,
+      "source": 0,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 36,
+      "source": 0,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 37,
+      "source": 1,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 38,
+      "source": 1,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 39,
+      "source": 1,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 40,
+      "source": 1,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 41,
+      "source": 1,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 42,
+      "source": 1,
+      "receiver": 2,
+      "packet": "state",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 43,
+      "source": 1,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 44,
+      "source": 1,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 45,
+      "source": 1,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 46,
+      "source": 1,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 47,
+      "source": 1,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 48,
+      "source": 1,
+      "receiver": 2,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 49,
+      "source": 1,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 50,
+      "source": 1,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 51,
+      "source": 1,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 52,
+      "source": 1,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 53,
+      "source": 1,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 54,
+      "source": 1,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 55,
+      "source": 1,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 56,
+      "source": 1,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 57,
+      "source": 1,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 58,
+      "source": 1,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 59,
+      "source": 1,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 60,
+      "source": 1,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 61,
+      "source": 2,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 62,
+      "source": 2,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 8.0
+    },
+    {
+      "id": 63,
+      "source": 2,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 64,
+      "source": 2,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 5.0
+    },
+    {
+      "id": 65,
+      "source": 2,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 66,
+      "source": 2,
+      "receiver": 3,
+      "packet": "state",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 3.0
+    },
+    {
+      "id": 67,
+      "source": 2,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 0,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 68,
+      "source": 2,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "none",
+      "channel": 1,
+      "bits_kb": 24.0
+    },
+    {
+      "id": 69,
+      "source": 2,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 0,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 70,
+      "source": 2,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "medium",
+      "channel": 1,
+      "bits_kb": 16.0
+    },
+    {
+      "id": 71,
+      "source": 2,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 0,
+      "bits_kb": 10.0
+    },
+    {
+      "id": 72,
+      "source": 2,
+      "receiver": 3,
+      "packet": "feature",
+      "compression": "high",
+      "channel": 1,
+      "bits_kb": 10.0
+    }
+  ],
+  "budgets_kb_per_slot": [
+    5.0,
+    10.0,
+    16.0,
+    24.0
+  ],
+  "dt_s": 0.1,
+  "steps": 80,
+  "seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+  ],
+  "methods": [
+    "random",
+    "nearest",
+    "ap",
+    "aoi",
+    "state",
+    "cr_voi_1",
+    "cr_voi_10",
+    "full_broadcast"
+  ],
+  "shared_network_trace": "same seed, scenario and time-indexed action delivery draws",
+  "shared_plant": "v4 four-truck linear lag and fixed CACC gains",
+  "deterministic_allocator": "All methods use the same per-slot budget and one-packet-per-receiver limit; scores are recomputed after each expected update",
+  "shared_error_generator": "fit-town T2_A3 median shape with hypothetical fusion scale",
+  "AP": "explicit smooth uncertainty-based AP proxy, not measured AP@IoU",
+  "shield": "model-based Cbar<1 screen only; not empirical/field guarantee"
+}

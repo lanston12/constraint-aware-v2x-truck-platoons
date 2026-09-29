@@ -1,0 +1,9 @@
+{
+  "H": 80,
+  "dt": 0.1,
+  "leader_l2_budget": 2.0,
+  "w_sample_budget_mps2": 0.01,
+  "w_l2_budget": 0.17888543819998318,
+  "epsilon_stack_factor": 15.491933384829668,
+  "note": "all load/road parameters remain v2 stress assumptions"
+}

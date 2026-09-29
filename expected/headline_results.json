@@ -1,0 +1,32 @@
+{
+  "episodes": 1728,
+  "paired_episodes": 432,
+  "cr_lower_mean_c_cells": {
+    "ap": 24,
+    "aoi": 36,
+    "state": 0
+  },
+  "disagreement_count": 156,
+  "disagreement_fraction": 0.3611111111111111,
+  "maximum_disagreement": {
+    "scenario": "combined",
+    "budget_kb": 5.0,
+    "seed": 205,
+    "score": 0.018052034786312142
+  },
+  "empirical": {
+    "matched": 325,
+    "accepted": 223,
+    "direct_bound_covered": 212,
+    "spearman_rho": 0.8194456485262042
+  },
+  "control_geometry": {
+    "cases": 517,
+    "positive_radius_cases": 262
+  },
+  "mechanism_times_s": [
+    5.0,
+    5.7
+  ],
+  "supplementary_episodes": 2880
+}

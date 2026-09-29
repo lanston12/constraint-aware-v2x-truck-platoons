@@ -1,0 +1,102 @@
+{
+  "evidence": "model-based synthetic network/perception and frozen v4 rows",
+  "base_model": "v5 simulator, no scheduler or controller algorithm change",
+  "scenarios": [
+    {
+      "name": "nominal",
+      "kind": "homogeneous",
+      "load": "L1_light",
+      "grade": "G1_level",
+      "curvature": "K1_straight",
+      "headway_s": 2.0,
+      "age_s": 0.2,
+      "uncertainty_factor": 1.0
+    },
+    {
+      "name": "loaded",
+      "kind": "homogeneous",
+      "load": "L3_loaded",
+      "grade": "G1_level",
+      "curvature": "K1_straight",
+      "headway_s": 3.0,
+      "age_s": 0.2,
+      "uncertainty_factor": 1.12
+    },
+    {
+      "name": "downhill",
+      "kind": "homogeneous",
+      "load": "L1_light",
+      "grade": "G2_downhill",
+      "curvature": "K1_straight",
+      "headway_s": 2.0,
+      "age_s": 0.2,
+      "uncertainty_factor": 1.08
+    },
+    {
+      "name": "curve",
+      "kind": "homogeneous",
+      "load": "L1_light",
+      "grade": "G1_level",
+      "curvature": "K2_moderate",
+      "headway_s": 2.0,
+      "age_s": 0.2,
+      "uncertainty_factor": 1.1
+    },
+    {
+      "name": "high_aoi",
+      "kind": "homogeneous",
+      "load": "L1_light",
+      "grade": "G1_level",
+      "curvature": "K1_straight",
+      "headway_s": 2.0,
+      "age_s": 0.4,
+      "uncertainty_factor": 1.35
+    },
+    {
+      "name": "combined",
+      "kind": "homogeneous",
+      "load": "L3_loaded",
+      "grade": "G2_downhill",
+      "curvature": "K2_moderate",
+      "headway_s": 3.0,
+      "age_s": 0.4,
+      "uncertainty_factor": 1.75
+    }
+  ],
+  "budgets_kbit_per_slot": [
+    5.0,
+    8.0,
+    10.0,
+    12.0,
+    16.0,
+    24.0
+  ],
+  "paired_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212
+  ],
+  "methods": [
+    "ap",
+    "aoi",
+    "state",
+    "cr_voi_1"
+  ],
+  "dt_s": 0.1,
+  "steps": 80,
+  "comparison_unit": "one complete paired seed episode",
+  "shared_per_cell": "candidate actions, network/occlusion/error draws, plant, controller, cap",
+  "paired_contrast": "C_CR-C_comparator; negative favors CR",
+  "active_constraint": "modal one-step modeled row under CR, pooled over all 80 slots and paired seeds",
+  "AP": "smooth model proxy, not detector AP@IoU",
+  "received_bits": "policy-dependent and preserved"
+}

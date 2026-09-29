@@ -1,0 +1,14 @@
+{
+  "evidence": "synthetic combined closed-loop model",
+  "inherited_fixed_seed": 201,
+  "budget_kbit_per_slot": 10.0,
+  "methods": [
+    "ap",
+    "aoi",
+    "cr_voi_1"
+  ],
+  "event_rule": "top two distinct-first-action time slots by range of expected single-packet \u0394C, at least five slots apart; tie earliest",
+  "candidate_reference": "CR pre-decision model state for all method-selected first packets",
+  "action_metrics": "expected single-packet effects, not realized whole-slot effects",
+  "abbreviations": "S state, F feature; N none, M medium, H high compression"
+}

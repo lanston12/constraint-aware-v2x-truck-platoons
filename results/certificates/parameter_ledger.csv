@@ -1,0 +1,31 @@
+parameter,value,unit,provenance,status
+loaded_gross_combination_mass,48560,kg,Li et al. 2019 DOI 10.1155/2019/1345364 Tables 3 and 4 sum,literature benchmark not payload
+light_gross_mass,20000,kg,this study load-bin stress assumption,not measured
+medium_gross_mass,35000,kg,this study load-bin stress assumption,not measured
+light_actuator_lag,0.40,s,this study stress assumption,not measured
+medium_actuator_lag,0.55,s,this study stress assumption,not measured
+leader_actuator_lag,0.55,s,same medium-lag stress assumption used in lifted model and simulation,not measured
+loaded_actuator_lag,0.70,s,local S3 truck script uses tauBrake=0.70 s; reused as stress assumption,not vehicle identification
+light_actuation_gain,1.00,dimensionless,this study stress assumption,not measured
+medium_actuation_gain,0.92,dimensionless,this study stress assumption,not measured
+loaded_actuation_gain,0.85,dimensionless,this study stress assumption,not measured
+brake_force,170000,N,local S3 script FbEgoMax=170000 N,stress assumption not fleet measurement
+brake_efficiency,0.78,dimensionless,local S3 script etaEgo=0.78,stress assumption
+friction_lower,0.60,dimensionless,this study dry-road stress assumption,not measured
+level_grade,0,deg,this study operating bin,scenario
+moderate_downhill,3,deg,this study operating bin,scenario
+severe_downhill,6.5,deg,local S3 script uses signed -6.5 deg,stress scenario
+straight_curvature,0,1/m,this study operating bin,scenario
+moderate_curvature,0.005,1/m,this study operating bin,scenario
+sharp_curvature,0.010,1/m,this study operating bin,scenario
+lateral_acceleration_cap,2.94,m/s2,this study conservative stress screen (0.30 g),not a validated rollover boundary
+speed_reference,20,m/s,this study stress operating point,scenario
+time_step,0.1,s,this study numerical discretization,algorithm setting
+certificate_horizon,8,s,this study 80-step finite horizon,algorithm setting
+kp,0.55,1/s2,local S3 script CTH nominal LPV kx=0.55; controller form differs,stress tuning not validated
+kd,1.25,1/s,local S3 script CTH nominal LPV kv=1.25; controller form differs,stress tuning not validated
+ka,0.15,dimensionless,local S3 script CTH nominal LPV ka=0.15; controller form differs,stress tuning not validated
+standstill_gap,8,m,local S3 script d0=8 m,stress scenario
+physical_gap_min,10,m,this study stress minimum,not regulation
+stopping_reserve,5,m,local S3 script DeltaS=5 m,stress scenario
+terminal_error_halfwidth,8,m,this study finite-horizon surrogate,not validated invariant terminal set

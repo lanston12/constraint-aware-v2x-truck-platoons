@@ -1,0 +1,33 @@
+{
+  "type": "algebraic map check only; no new research trajectories",
+  "checks": [
+    {
+      "load_schedule": "homogeneous",
+      "maximum_absolute_map_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "load_schedule": "heterogeneous",
+      "maximum_absolute_map_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "load_schedule": "switch_L2_to_L3",
+      "maximum_absolute_map_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "load_schedule": "switch_L3_to_L1",
+      "maximum_absolute_map_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "load_schedule": "switch_L2_L1_L3",
+      "maximum_absolute_map_difference": 0.0,
+      "status": "PASS"
+    }
+  ],
+  "brake_row_timing": "c_u X(k+1) plus direct r_i(k); causal controller uses X(k)",
+  "initial_perturbation": "zero",
+  "leader_gain": 1
+}

@@ -1,0 +1,105 @@
+{
+  "evidence": "model-based synthetic error sequences; not empirical 80-step TruckV2X",
+  "seed": 20260925,
+  "calibration_sequences_per_scenario": 160,
+  "test_sequences_per_scenario": 240,
+  "horizons": [
+    1,
+    5,
+    10,
+    20,
+    40,
+    80
+  ],
+  "fit_town_observed_T2_A3_matched_n": 126,
+  "fit_town_median_abs_error": [
+    0.7046282341933736,
+    1.4267358715858989,
+    0.20228654479116248
+  ],
+  "hypothetical_cooperative_fusion_gain": [
+    0.25,
+    0.12,
+    1.0
+  ],
+  "base_innovation_std": [
+    0.2611708458851204,
+    0.2538338122859656,
+    0.29991048016839766
+  ],
+  "temporal_AR_coefficient": 0.75,
+  "innovation": "variance-normalized Student-t df=6",
+  "snr_dB": "Normal(16, 3.5) clipped to [4,28]",
+  "compression": [
+    0,
+    0.25,
+    0.5
+  ],
+  "occlusion_probability": 0.08,
+  "AoI": "condition age + exponential(mean .12 s)",
+  "predictor_information": "decision-time quality scale and step-zero network/perception covariates only; no future exposure",
+  "calibration_unit": "one complete independently seeded 80-step trajectory",
+  "scenarios": [
+    {
+      "name": "nominal",
+      "kind": "homogeneous",
+      "load": "L1_light",
+      "grade": "G1_level",
+      "curvature": "K1_straight",
+      "headway_s": 2.0,
+      "age_s": 0.2,
+      "uncertainty_factor": 1.0
+    },
+    {
+      "name": "loaded",
+      "kind": "homogeneous",
+      "load": "L3_loaded",
+      "grade": "G1_level",
+      "curvature": "K1_straight",
+      "headway_s": 3.0,
+      "age_s": 0.2,
+      "uncertainty_factor": 1.12
+    },
+    {
+      "name": "downhill",
+      "kind": "homogeneous",
+      "load": "L1_light",
+      "grade": "G2_downhill",
+      "curvature": "K1_straight",
+      "headway_s": 2.0,
+      "age_s": 0.2,
+      "uncertainty_factor": 1.08
+    },
+    {
+      "name": "curve",
+      "kind": "homogeneous",
+      "load": "L1_light",
+      "grade": "G1_level",
+      "curvature": "K2_moderate",
+      "headway_s": 2.0,
+      "age_s": 0.2,
+      "uncertainty_factor": 1.1
+    },
+    {
+      "name": "high_aoi",
+      "kind": "homogeneous",
+      "load": "L1_light",
+      "grade": "G1_level",
+      "curvature": "K1_straight",
+      "headway_s": 2.0,
+      "age_s": 0.4,
+      "uncertainty_factor": 1.35
+    },
+    {
+      "name": "combined",
+      "kind": "homogeneous",
+      "load": "L3_loaded",
+      "grade": "G2_downhill",
+      "curvature": "K2_moderate",
+      "headway_s": 3.0,
+      "age_s": 0.4,
+      "uncertainty_factor": 1.75
+    }
+  ],
+  "row_source": "frozen v4 common-input maps; every listed constraint row"
+}

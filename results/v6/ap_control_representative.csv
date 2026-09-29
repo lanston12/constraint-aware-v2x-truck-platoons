@@ -1,0 +1,2 @@
+scenario,budget_kb,seed,selection_rule,ap_proxy_advantage_ap,control_margin_advantage_cr,disagreement_score
+combined,5.0,205,max positive x*y among all paired episodes,0.07283618606030895,0.247844316990526,0.018052034786312142

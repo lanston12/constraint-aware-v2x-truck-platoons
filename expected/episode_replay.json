@@ -1,0 +1,22 @@
+[
+  {
+    "method": "ap",
+    "maximum_metric_difference": 1.7763568394002505e-15,
+    "status": "PASS"
+  },
+  {
+    "method": "aoi",
+    "maximum_metric_difference": 8.881784197001252e-16,
+    "status": "PASS"
+  },
+  {
+    "method": "state",
+    "maximum_metric_difference": 8.881784197001252e-16,
+    "status": "PASS"
+  },
+  {
+    "method": "cr_voi_1",
+    "maximum_metric_difference": 4.440892098500626e-16,
+    "status": "PASS"
+  }
+]
